@@ -9,3 +9,41 @@ p {
   img {
     height: 400px;
   }
+
+  #main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .banner{
+    display: flex;
+    justify-content: center;
+  }
+  .problem-1 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .problem-2{
+    display: flex;
+    justify-content: center;
+  }
+
+  #problem-3{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+  }
+
+  #problem-4{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+
+  #problem-5{
+    display: flex;
+    justify-content: space-between;
+  }
